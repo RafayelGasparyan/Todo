@@ -1,38 +1,62 @@
 .App {
-  text-align: center;
+  margin-top: 100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.todoStyle {
+  width: 40%;
+  height: 30px;
+  border: solid 1px teal;
+  margin: auto;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  opacity: 1;
+  transition: .5s;
 }
-
-.App-link {
-  color: #61dafb;
+.btnClear {
+  color:  red;
+  float: right ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inpTextStyle {
+  width: 40%;
+  height: 30px;
+  border: solid 1px teal;
+  margin: auto;
+  align-items: center;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+}
+.inpTextStyle input {
+  width: 70%;
+  padding: .4rem;
+  border: solid 1px teal;
+}
+.inpTextStyle input:hover {
+ background-color: rgb(176, 228, 241);
+}
+.inpTextStyle button {
+ float: right;
+ height: 20px;
+ font-size: 15px;
+ color: black;
+ height: 30px;
+}
+.todoFooterStyle {
+  width: 40%;
+  height: 30px;
+  border: solid 1px teal;
+  margin: auto;
+  align-items: center;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+}
+.todoFooterStyle button {
+  color: red;
+  float: right;
 }
